@@ -1,0 +1,2 @@
+1. Character and Enemy Skill Input and AC % to hit/crit
+2. Simulator between character and enemy ()

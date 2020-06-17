@@ -1,0 +1,20 @@
+<script src="calculator.js"></script>
+<div>
+  Player Skill: <input id="playerSkill" type="number"/> <br>
+  Enemy AC: <input id="enemyAc" type="number"/> <br>
+  Dice Type: 6 <br>
+  Crit Threshold: <input id="critThreshold" type="number"/> <br>
+</div>
+
+<table>
+  <tr>
+    <th>Chance To Hit</th>
+    <th>Chance To Crit</th>
+  </tr>
+  <tr>
+    <td id="chanceToHit"></td>
+    <td id="chanceToCrit"></td>
+  </tr>
+</table>
+
+<button onclick="calculateHitChances()">Calculate Hit Chances</button>
