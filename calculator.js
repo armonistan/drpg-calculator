@@ -94,6 +94,28 @@ function getAllDiceCombosValues(options) {
   }
 }
 
-function calculateChanceToHit(options) {
+/* sudo code/features to be implemented
 
-}
+  generate random weapons
+    user input "rarity"
+    define weapons/archetypes
+      {
+        weapon type
+        attck dice bonus
+        max attack dice
+        damage span
+        unique abilities
+        ar range
+      }
+    define perks
+    randomly combine archetype with perks
+
+  calculate damage graph of weapon/player
+    get all dice combo values
+    get commonness of each combo
+    take average expected damage and multiply by combo commoness
+    combine average expected damages to get expected damages for weapon on whole
+
+  player vs enemy simulator
+    tbd
+*/
